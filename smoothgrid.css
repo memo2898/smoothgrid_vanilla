@@ -1,0 +1,108 @@
+
+
+
+/**====Arreglar esto:===**/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px 10px;
+    text-align: left;
+    /*border-bottom: 1px solid #ddd;*/
+   
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/**====Arreglar esto:===**/
+
+.full-details-smootgrid{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.cont-smoothgrid-message-table{
+        display: flex;
+        justify-content: center;
+}
+
+.cont-ctrls-footer-smoothgrid {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.smoothgrid-btn-activo{
+    background-color: aqua;
+}
+
+.smoothgrid-ico-column-header {
+    width: 16px;
+}
+
+.smoothgrid-ico-column-body {
+    width: 10px;
+    cursor: pointer;
+}
+.smoothgrid_opened {
+    transform: rotate(90deg);
+}
+
+.smooth-category{
+    font-weight: 900;
+}
+
+.smoothgrid-ul-collapsed {
+    display: flex;
+    flex-direction: column;
+   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.smoothgrid-ul-collapsed   li{
+ 
+ padding: 10px;
+
+}
+
+
+.cont-ctrls-footer-smoothgrid {
+    margin-top: 20px;
+}
+
+.cont-ctrls-top-smoothgrid {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.smoothgrid-cont-padre-html{
+    display: flex;
+    gap:10px
+}
+
+
+
+/**Clases de prueba*/
+
+.btn-save{
+    background-color: green;
+    color: #ddd;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+.btn-delete{
+    background-color: rgb(140, 16, 16);
+    color: #ddd;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
